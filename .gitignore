@@ -1,0 +1,11 @@
+# 构建产物
+.build/
+dist/
+
+# 内置 7zz 二进制（由 Tools/fetch_7zip.sh 自动从官网下载；LGPL/BSD 许可声明保留在 vendor/）
+vendor/7zz
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
